@@ -1,0 +1,153 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+/*----------- HEADER --------------*/
+header {
+  padding: .5rem 2%;
+  background-color: #ddd;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+  background-color: #666;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+}
+
+nav ul li a {
+  display: block;
+  background-color: #444;
+  color: #eee;
+  border-left: 1px solid #777;
+  padding: .5rem 0;
+  text-decoration: none;
+  font-size: .9rem;
+  text-align: center;
+}
+
+nav ul li:first-child a {
+  border-left: none;
+}
+
+nav ul li a:hover {
+  background-color: #eee;
+  color: #333;
+}
+
+nav ul li.active a {
+  background-color: #000;
+  color: #fff;
+}
+
+/*----------- MAIN --------------*/
+main {
+  padding: 0 2%;
+  min-height: 10rem;
+}
+
+div.flexed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  padding: 0 2vw;
+}
+
+.small-1 {
+  flex-basis: 8.3333333333%;
+}
+
+.small-2 {
+  flex-basis: 16.6666666667%;
+}
+
+.small-3 {
+  flex-basis: 25%;
+}
+
+.small-4 {
+  flex-basis: 33.3333333333%;
+}
+
+.small-5 {
+  flex-basis: 41.6666666667%;
+}
+
+.small-6 {
+  flex-basis: 50%;
+}
+
+.small-7 {
+  flex-basis: 58.3333333333%;
+}
+
+.small-8 {
+  flex-basis: 66.6666666667%;
+}
+
+.small-9 {
+  flex-basis: 75%;
+}
+
+.small-10 {
+  flex-basis: 83.3333333333%;
+}
+
+.small-11 {
+  flex-basis: 91.6666666667%;
+}
+
+.small-12 {
+  flex-basis: 100%;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #ddd;
+  padding: .5rem 2%;
+  text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*# sourceMappingURL=_small.css.map */

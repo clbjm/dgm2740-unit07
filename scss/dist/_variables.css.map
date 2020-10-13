@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_variables.scss"],"sourcesContent":["$primaryColor: #eee;\r\n$secondaryColor: #d40000;\r\n$fontColor: #35373a;\r\n$accent: #2e3338;\r\n$jumboTron: blue;\r\n\r\n$defaultFont: 'lato', sans-serif;\r\n$normalWeight:300;\r\n$boldWeight:700;\r\n\r\n$gutter: 2vw;"],"file":"_variables.css"}
