@@ -1,1 +1,0 @@
-{"version":3,"names":[],"mappings":"","sources":["main.scss"],"sourcesContent":["//SASS LOOP FOR COLUMNS\r\ndiv.flexed {display: flex; flex-wrap: wrap;}\r\n.column {padding: 0 2vw;}\r\n@for $i from 1 through 12 {\r\n        $w:($i / 12) * 100%;\r\n        .small-#{$i} {flex-basis: $w;}\t\r\n} // end loop"],"file":"main.css"}
