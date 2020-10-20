@@ -434,7 +434,10 @@ border: none;
   @media only screen and (min-width: 320px) {
     .column {
       flex: 25%;
-      max-width: 25%;
+      max-width: 70%;
+    }
+    .flexed {
+    max-width: 50%;
     }
   }
     main .small-1 {flex-basis: 8.33%;}
@@ -476,6 +479,12 @@ main .small-12 {
       flex: 50%;
       max-width: 50%;
     }
+    .flexed {
+      max-width: 90%;
+      }
+      .callToAction {
+    align-items: center;
+  }
   }
     main .medium-1 {
       flex-basis: 8.33%;
@@ -521,6 +530,7 @@ main .small-12 {
       max-width: 25%;
       grid-column: 4;
     }
+    
     }
     main .large-1 {
       flex-basis: 8.33%;
@@ -562,7 +572,11 @@ main .small-12 {
     display: flex;
     flex-wrap: wrap;
     column-gap: 2rem;
-    column-width: 2rem;
+    
+  }
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   main .column {
