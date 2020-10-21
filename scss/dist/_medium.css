@@ -1,0 +1,73 @@
+/*----------- BODY --------------*/
+/*----------- HEADER --------------*/
+/*----------- NAVIGATION --------------*/
+nav ul {
+  margin-left: 2%;
+}
+
+nav ul li {
+  width: auto;
+}
+
+nav ul li:first-child a {
+  border-left: 1px solid #777;
+}
+
+nav ul li:last-child a {
+  border-right: 1px solid #777;
+}
+
+nav ul li a {
+  padding: 0.5rem 1rem;
+}
+
+/*----------- MAIN --------------*/
+.meduim-1 {
+  flex-basis: 8.3333333333%;
+}
+
+.meduim-2 {
+  flex-basis: 16.6666666667%;
+}
+
+.meduim-3 {
+  flex-basis: 25%;
+}
+
+.meduim-4 {
+  flex-basis: 33.3333333333%;
+}
+
+.meduim-5 {
+  flex-basis: 41.6666666667%;
+}
+
+.meduim-6 {
+  flex-basis: 50%;
+}
+
+.meduim-7 {
+  flex-basis: 58.3333333333%;
+}
+
+.meduim-8 {
+  flex-basis: 66.6666666667%;
+}
+
+.meduim-9 {
+  flex-basis: 75%;
+}
+
+.meduim-10 {
+  flex-basis: 83.3333333333%;
+}
+
+.meduim-11 {
+  flex-basis: 91.6666666667%;
+}
+
+.meduim-12 {
+  flex-basis: 100%;
+}
+
+/*----------- FOOTER --------------*/
