@@ -156,7 +156,7 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-size: 100%;
+  font-size: 16px;
   /* 1 */
   line-height: 1.15;
   /* 1 */
@@ -433,13 +433,13 @@ main {
     max-width: 60%;
   }
   .flexed {
-    max-width: 60%;
+    max-width: 100%;
+    flex-flow: wrap;
   }
   .callToAction {
-    align-items: left;
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column;
+    flex-flow: row;
     padding: .1rem;
     font-size: 25px;
   }
@@ -506,15 +506,14 @@ main .small-12 {
   }
 
   .callToAction {
-    align-items: center;
     display: flex;
     column-gap: 1rem;
     padding: 1rem;
     flex-flow: row;
     font-size: 40px;
-    margin: 10px;
+    margin: 1px;
   }
-}
+
 
 main .medium-1 {
   flex-basis: 8.33%;
@@ -563,7 +562,12 @@ main .medium-11 {
 main .medium-12 {
   flex-basis: 100%;
 }
-
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
 
 @media only screen and (min-width: 1024px) {
   .column {
@@ -643,7 +647,7 @@ main .large-12 {
   flex-flow: wrap;
 }
 main .column {
-  padding: 0 2vw;
+  padding: 0 1vw;
 }
 
 div.social {
